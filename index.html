@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link crossorigin="" rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+  <title> ㅤ</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      height: 100vh;
+      overflow: hidden;
+    }
+    video {
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+    }
+    video::-webkit-media-controls,
+    video::-moz-media-controls,
+    video::-webkit-media-controls-enclosure{
+        display:none !important;
+    }
+
+    video::-webkit-media-controls-panel,
+    video::-webkit-media-controls-panel-container,
+    video::-webkit-media-controls-start-playback-button {
+        display:none !important;
+        -webkit-appearance: none;
+    }
+  </style>
+</head>
+<body>
+  <video src="./assets/Wind chime princess.mp4" autoplay muted loop></video>
+</body>
+</html>
